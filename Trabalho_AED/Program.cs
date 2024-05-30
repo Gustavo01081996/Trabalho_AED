@@ -79,7 +79,6 @@ namespace Trabalho_AED
 
             Console.ReadKey();
 
-            //comentário teste
         }
     }
 }
