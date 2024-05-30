@@ -6,14 +6,12 @@ namespace Trabalho_AED
 	{
 		public Universidade()
 		{
-
 			Dictionary cursos;
 		}
 
 		public List Selecao(Candidato[] candidatos)
 		{
 			List selecionados = new List<Candidato>();
-
 
 			return selecionados;
 		}
