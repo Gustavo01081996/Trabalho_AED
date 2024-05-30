@@ -38,6 +38,16 @@ namespace Trabalho_AED
 
         }
 
+
+        public static void MostrarCursos(Curso[] listaCursos)
+        {
+            for (int i = 0; i < listaCursos.Length; i++)
+            {
+                Console.WriteLine($"Código: {listaCursos[i].codigo}; Nome: {listaCursos[i].nome}; Quantidade de vagas: {listaCursos[i].quantVagas}");
+            }
+
+        }
+
     }
 }
     

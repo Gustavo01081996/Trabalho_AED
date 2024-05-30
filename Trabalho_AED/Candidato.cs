@@ -74,5 +74,23 @@ namespace Trabalho_AED
             this.opcao2 = opcao2;   
 
         }
+
+
+        public static void MostrarCandidato(Candidato[] listaCandidatos)
+        {
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            for (int i = 0; i < listaCandidatos.Length; i++)
+            {
+                Console.WriteLine($" Nome: {listaCandidatos[i].nome}, Nota Redação: {listaCandidatos[i].notaRed};  Nota Matemática: {listaCandidatos[i].notaMat}; Nota Lang: {listaCandidatos[i].notaLing}; Média: {listaCandidatos[i].media}; Opcao 1: {listaCandidatos[i].opcao1}; Opção 2: {listaCandidatos[i].opcao2}");
+            }
+
+        }
+
+
+
+
     }
 }
