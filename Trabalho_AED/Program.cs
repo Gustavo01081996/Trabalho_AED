@@ -71,13 +71,9 @@ namespace Trabalho_AED
 
 
             }
-            arq.Close();
+      
 
 
-            Curso.MostrarCursos(listaCursos);
-            Candidato.MostrarCandidato(listaCandidatos);
-
-            Console.ReadKey();
         }
     }
 
